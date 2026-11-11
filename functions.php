@@ -179,6 +179,16 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Featured Articles post editor controls.
+ */
+require get_template_directory() . '/inc/featured-posts.php';
+
+/**
+ * Article view tracking and Most Popular posts.
+ */
+require get_template_directory() . '/inc/post-views.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
